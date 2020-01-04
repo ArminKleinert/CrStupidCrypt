@@ -1,0 +1,13 @@
+name: CrStupidCrypt
+version: 0.1.0
+
+authors:
+  - armin <armin.kleinert@t-online.de>
+
+targets:
+  CrStupidCrypt:
+    main: src/CrStupidCrypt.cr
+
+crystal: 0.32.1
+
+license: MIT
