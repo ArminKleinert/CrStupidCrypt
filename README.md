@@ -17,7 +17,7 @@ Call the executable as follows:
 ```<source>``` is the file that you want to encrypt/decrypt.  
 ```<destination>``` is the file which the output will be written to. The output is not human-readable at all.  
 ```<secret-code>``` is a 32-bit number, given in hex-format (prefix: 0x), binary-format (prefix: 0b), octal-format (prefix: 0o) or decimal format (no prefix).  
-```<options>``` are attional options, all starting with "--". The most important (and at the moment the only) option is "--decrypt".
+```<options>``` are additional options, all starting with "--". The most important (and at the moment the only) option is "--decrypt".
 
 Example for encryption:  
 ```CrStupidCrypt originalfile encryptedfile 0xCAFEBABE```  
